@@ -38,16 +38,16 @@ module.exports = {
 	txMinConfirms: 10,
 
 	// Currency symbol
-	coinSymbol: "XMR",
+	coinSymbol: "XWP",
 
 	// OpenAlias prefix
-	openAliasPrefix: "xmr",
+	openAliasPrefix: "xwp",
 
 	// Currency name
-	coinName: "Monero",
+	coinName: "Swap",
 
 	// Payment URI Prefix
-	coinUriPrefix: "monero:",
+	coinUriPrefix: "swap:",
 
 	// Dust threshold in atomic units
 	// 2*10^9 used for choosing outputs/change - we decompose all the way down if the receiver wants now regardless of threshold
@@ -57,5 +57,5 @@ module.exports = {
 	maxBlockNumber: 500000000,
 
 	// Average block time in seconds, used for unlock time estimation
-	avgBlockTime: 60,
+	avgBlockTime: 15,
 };
